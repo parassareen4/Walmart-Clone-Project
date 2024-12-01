@@ -744,11 +744,12 @@ html , body{
     margin-top: 2%;
 }
 
-
+/* Images/box-5-img.webp */
 
 #box-container4{
+    
     height: 36.4vw;
-    background-image: url('Images/box-4-cha.webp');
+    background-image: url('Images/box-5-img.webp');
     background-size: cover; 
     background-position: center;
     grid-column:  1/ span 5; 
@@ -766,7 +767,7 @@ html , body{
 
 #box-container4 p{
     
-    color: white;
+    color: rgb(21, 55, 96);
     font-size: 1.8vw;
     font-weight: 900;
     padding-top: 8%;
@@ -961,10 +962,10 @@ html , body{
     padding-top: 3%;
     padding-left: 4%;
 }
-
+/* Images/box-5-img.webp' */
 #box-container10{
     height:36.2vw ;
-    background-image: url('Images/box-5-img.webp');
+    background-image: url('Images/box-4-cha.webp');
     background-size: cover;
     background-position: center;
     grid-column: 16 / span 5; 
