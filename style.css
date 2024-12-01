@@ -744,22 +744,45 @@ html , body{
     margin-top: 2%;
 }
 
-/* Images/box-5-img.webp */
+
 
 #box-container4{
-    
-    height: 36.4vw;
+    height: 35vw;
     background-image: url('Images/box-5-img.webp');
     background-size: cover; 
     background-position: center;
-    grid-column:  1/ span 5; 
-    grid-row: 2 / span 2;
     position: relative;
-    bottom: 7.15%;
+    bottom: 0;
     display: flex;
     flex-direction: column;
  
 }
+#box-container1 {
+    grid-column: 1 / span 5; /* Change to the position of container 4 */
+    grid-row: 3 / span 2;    /* Adjust rows if needed */
+}
+
+#box-container4 {
+    grid-column: 1 / span 5; /* Change to the position of container 1 */
+    grid-row: 1/ span 1;    /* Adjust rows if needed */
+}
+
+
+#box-container10{
+    height:36.2vw ;
+    background-image: url('Images/box-4-cha.webp');
+    background-size: cover;
+    background-position: center;
+    grid-column: 16 / span 5; 
+    grid-row: 3 / span 2;
+    position: relative;
+    bottom: 18%;
+    display:  flex;
+    flex-direction: column;
+    
+
+} 
+
 
 #box-container4 a:hover{
     text-decoration: none;
@@ -767,7 +790,7 @@ html , body{
 
 #box-container4 p{
     
-    color: rgb(21, 55, 96);
+    color: rgb(49, 64, 104);
     font-size: 1.8vw;
     font-weight: 900;
     padding-top: 8%;
@@ -962,21 +985,6 @@ html , body{
     padding-top: 3%;
     padding-left: 4%;
 }
-/* Images/box-5-img.webp' */
-#box-container10{
-    height:36.2vw ;
-    background-image: url('Images/box-4-cha.webp');
-    background-size: cover;
-    background-position: center;
-    grid-column: 16 / span 5; 
-    grid-row: 3 / span 2;
-    position: relative;
-    bottom: 18%;
-    display:  flex;
-    flex-direction: column;
-    
-
-} 
 
 #box-container10 p{
     color: #022c59;
