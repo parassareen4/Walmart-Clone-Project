@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
       
 }
 
@@ -27,6 +29,7 @@ html , body{
     font-family: boogle-regular;
     position: relative;
     margin-top: -50px;
+    scroll-behavior: smooth;
 }
 
 
